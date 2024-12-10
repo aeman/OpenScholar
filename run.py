@@ -198,6 +198,7 @@ def main():
             enforce_eager=True,
             disable_custom_all_reduce=True,
             gpu_memory_utilization = 0.9,
+            max_seq_len_to_capture = 4096,
         )
         # To apply chat formatting
         tokenizer = load_hf_tokenizer(
