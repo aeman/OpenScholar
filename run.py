@@ -196,7 +196,8 @@ def main():
             tensor_parallel_size=torch.cuda.device_count(),
             download_dir=args.download_dir,
             enforce_eager=True,
-            disable_custom_all_reduce=True
+            disable_custom_all_reduce=True,
+            gpu_memory_utilization = 0.9,
         )
         # To apply chat formatting
         tokenizer = load_hf_tokenizer(
