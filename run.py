@@ -223,7 +223,7 @@ def main():
                         norm_cite=args.norm_cite, ss_retriever=args.ss_retriever)
     
     # process input data
-    data = process_input_data(data)
+    data = process_input_data(data, False)
 
     for item in data:
         if "answer" not in item and "output" in item:
