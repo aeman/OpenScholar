@@ -1,4 +1,5 @@
 import argparse
+from dotenv import load_dotenv
 import requests
 import random
 from tqdm import tqdm
@@ -6,7 +7,7 @@ import json
 from openai import OpenAI
 import time
 import numpy as np
-from src.utils import load_jsonlines
+from utils import load_jsonlines
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -17,6 +18,7 @@ import pandas as pd
 from xml.etree import ElementTree as ET
 import os
 
+load_dotenv()
 S2_API_KEY=os.environ["S2_API_KEY"]
 # YOUR_API_KEY = os.environ["YOUR_API_KEY"]
 PES2O_INDEX_URL="YOUR_PES2O_INDEX_URL"

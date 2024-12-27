@@ -1,2 +1,9 @@
-.DS_Store
-**/.DS_Store
+__pycache__/
+.env
+cert/
+*.log
+*.png
+*.md
+.idea/
+.vscode/
+.key
