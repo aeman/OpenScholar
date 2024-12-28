@@ -1,0 +1,37 @@
+cd embeddings
+# dowload embeddings 00-15.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_00.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_01.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_02.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_03.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_04.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_05.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_06.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_07.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_08.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_09.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_10.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_11.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_12.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_13.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_14.pkl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/embeddings/passages_15.pkl
+
+cd ../passages
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/.gitattributes
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-0-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-1-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-2-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-3-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-4-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-5-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-6-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-7-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-8-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-9-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-10-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-11-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-12-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-13-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-14-of-16.jsonl
+wget https://huggingface.co/datasets/OpenScholar/OpenScholar-DataStore-V3/resolve/main/passages/raw_passages-15-of-16.jsonl
