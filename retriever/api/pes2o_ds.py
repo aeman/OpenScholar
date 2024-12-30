@@ -55,7 +55,7 @@ class Pes2oDatastoreAPI():
         return id_mapping
     
 
-@hydra.main(config_path="/gscratch/zlab/rulins/scaling-clean/ric/conf", config_name="pes2o")
+@hydra.main(config_path="/data01/src/OpenScholar/retriever/api/conf", config_name="pes2o")
 def get_datastore(cfg):
     ds = Pes2oDatastoreAPI(cfg)
     return ds
